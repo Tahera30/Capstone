@@ -1,0 +1,146 @@
+{
+	"id": "78f2cb72-8ad7-4b9c-9a07-691aad727712",
+	"name": "GoRest",
+	"timestamp": "2023-04-18T22:22:11.117Z",
+	"collection_id": "26490717-69702f06-818d-4770-be09-bbb0570166c9",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 4,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2023-04-18T22:22:09.425Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "bc1c1361-73a2-44b9-804c-27eca513027c",
+			"name": "Create user",
+			"url": "https://gorest.co.in/public/v2/users",
+			"time": 308,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Status code is 201": true
+			},
+			"testPassFailCounts": {
+				"Status code is 201": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				308
+			],
+			"allTests": [
+				{
+					"Status code is 201": true
+				}
+			]
+		},
+		{
+			"id": "3a6a69cb-435d-416a-abe1-d6e68bfcf0aa",
+			"name": "One user",
+			"url": "https://gorest.co.in/public/v2/users/1059863",
+			"time": 320,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				320
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "451b9453-6490-465b-bdbe-d60c68631fa3",
+			"name": "Update user",
+			"url": "https://gorest.co.in/public/v2/users/1059863",
+			"time": 326,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				326
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "303d498e-d578-421f-93ab-b34252158415",
+			"name": "Delete user",
+			"url": "https://gorest.co.in/public/v2/users/1059863",
+			"time": 333,
+			"responseCode": {
+				"code": 204,
+				"name": "No Content"
+			},
+			"tests": {
+				"Status code is 204": true
+			},
+			"testPassFailCounts": {
+				"Status code is 204": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				333
+			],
+			"allTests": [
+				{
+					"Status code is 204": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 1287,
+	"collection": {
+		"requests": [
+			{
+				"id": "bc1c1361-73a2-44b9-804c-27eca513027c",
+				"method": "POST"
+			},
+			{
+				"id": "3a6a69cb-435d-416a-abe1-d6e68bfcf0aa",
+				"method": "GET"
+			},
+			{
+				"id": "451b9453-6490-465b-bdbe-d60c68631fa3",
+				"method": "PUT"
+			},
+			{
+				"id": "303d498e-d578-421f-93ab-b34252158415",
+				"method": "DELETE"
+			}
+		]
+	}
+}
